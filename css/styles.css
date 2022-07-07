@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#401514E;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-weight: 900;
+  font-size: 5.625em;
+  color: #66BFBF;
+    padding-top: 150px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #66BFBF;
+  font-size: 2.5rem;
+  padding: 100px 0 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  /*  color:#00a8e1;*/
+  color: #11999E;
+  font-weight: bold;
+}
+h5{
+  font-weight: bold;
+}
+p{
+  line-height: 2;
+  display: block;
+
+}
+.navfix{
+  background-color: #eaf6f6;
+}
+.skills{
+  /* padding-top: 50px; */
+}
+.skill-icon{
+  width: 30%;
+}
+.education-row{
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    line-height: 2;
+
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill1-img {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.skill2-img {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+
+
+
+.top-container {
+  /*background-color: #fbe31b;*/
+  background-image: url(images/airport.png);
+  background-color: #EAF6F6;
+  position: relative;
+}
+.bio{
+
+}
+.profile{
+  margin: 100px 0 ;
+}
+#educational-bg{
+    background-color: #EAF6F6;
+    padding-bottom: 85px;
+}
+
+.education{
+
+  padding: 100px 0 155px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#401514E;
+}
+.skill-container{
+  text-align: center;
+  padding: 3% 7% 20%;
+}
+#experience{
+  background-color: #EAF6F6;
+}
+.experience-container{
+    padding: 5% 7% 20%;
+}
+.experience-block
+{
+  text-align: left;
+}
+#projects{
+padding: 0 10% 8%;
+/* background-color: #FFDB58; */
+}
+.project-image{
+  width:30%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: blue;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: blue;
+}
+
+.middle-container {
+  margin: 100px 0;
+
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding-top: 50px;
+
+}
+
+
+.intro{
+  width:30%;
+  margin: auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+.airplane{
+
+  height:20%;
+  position: absolute;
+  right:200px;
+  top:180px;
+}
+.airport{
+  position:absolute;
+  bottom:0;
+  width:13%;
+  height: auto;
+}
+.school-seal{
+  float:left;
+  position: relative;
+  bottom:50px;
+  margin: 50px 20px 170px;
+  width:20%;
+  height:15%;
+}
+.contact{
+color:#eaf6f6;
+padding-top: 30px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 80px auto 80px auto;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+.copyright{
+  color:#EAF6F6;
+font-size: 0.75rem;
+padding: 20px 0;
+}
+
+a{
+color: white;
+  font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+  margin:10px 20px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6;
+}
